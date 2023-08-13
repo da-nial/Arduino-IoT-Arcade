@@ -39,7 +39,7 @@ The following hardware components are used in these projects:
    sounds. If middle LDR detects line, green LED turns on and servo stays still. If right LDR detects line, servo
    rotates right. If left LDR detects line, servo rotates left. This allows an imaginary line following robot to follow
    a black line. The general idea of this circuit can be seen in the figure below (figure not
-   ours).  ![LDR](figs/LDR.png)
+   ours). <img src="figs/LDR.png" alt="LDR" height="200"/>
 
 4. Smart Bin: Use the ultrasonic sensor to detect hand proximity. When a hand is detected within set distance range,
    servo rotates to open an "imaginary" bin lid. (Figure not ours).
@@ -74,7 +74,8 @@ The following hardware components are used in these projects:
 5. **Parking Door:** Host a page with buttons to open and close the door. When open is pressed, rotate a servo to open
    the door position, turn on an LED to indicate open state. If the door is left open for 20 seconds, automatically
    close. When closing, check for obstacles with an ultrasonic sensor. If an obstacle is detected, stop closing, open
-   the door, buzz a buzzer and show an error on the page. (figure not ours) ![Parking Door](figs/Parking_Door.png)
+   the door, buzz a buzzer and show an error on the page. (figure not ours) <img src="figs/Parking_Door.png" alt="Parking Door" height="200"/>
+
 
 6. **Alarm:** Host a page to set an alarm time and volume. Use the NTP protocol to check the current time against the
    set alarm time. When the alarm time is reached, buzz a buzzer at the set volume. The page has buttons to snooze the
